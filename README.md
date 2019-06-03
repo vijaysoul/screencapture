@@ -1,6 +1,6 @@
 # screencaputre
 
-git clone https://github.com/vijaysoul/screencaputre.git
+git clone https://github.com/vijaysoul/screencapture.git
 
 npm install
 
