@@ -1,9 +1,11 @@
 # screencapture
 
-git clone https://github.com/vijaysoul/screencapture.git
+1. git clone https://github.com/vijaysoul/screencapture.git
 
-npm install
+2. cd screencapture
 
-npm start
+3. npm install
+
+4. npm start
 
 ![alt text](assets/demo.png)
