@@ -1,4 +1,4 @@
-# screencaputre
+# screencapture
 
 git clone https://github.com/vijaysoul/screencapture.git
 
