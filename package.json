@@ -1,0 +1,33 @@
+{
+  "name": "screencapture",
+  "version": "1.0.0",
+  "description": "electron using screenshot, desktop recording, play desktoprecorded video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaysoul/screencaputre.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "electronjs",
+    "Screencapture"
+  ],
+  "author": "vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaysoul/screencaputre/issues"
+  },
+  "homepage": "https://github.com/vijaysoul/screencaputre#readme",
+  "dependencies": {
+    "domify": "^1.4.0",
+    "electron": "^5.0.2"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.41.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}

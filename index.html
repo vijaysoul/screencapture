@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen Capture</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <br>
+   <div class="col-sm-12 text-center">
+     <button class="btn btn-primary" id='screenshot'><span class="glyphicon glyphicon-picture"></span></button>
+     <button class="btn btn-primary" id="record"><span class="glyphicon glyphicon-cd"></span></button>
+     <button class="btn btn-success" id="stop"><span class="	glyphicon glyphicon-stop"></span></button>
+     <!-- <button class="btn btn-success" id='pause'>PAUSE</button>
+     <button class="btn btn-success" id='resume'>RESUME</button> -->
+     <button class="btn btn-success" id="play" ><span class="glyphicon glyphicon-play"></span></button>
+     <!-- <button class="btn btn-success" id="save">SAVE</button> -->
+   </div>
+   <br>
+ <div class="panel panel-default">
+  <div class="panel-body"> <video id="video" controls class="video-js" data-setup='{}'></video></div>
+</div>
+</div>
+</body>
+</html>
+<style>
+  body{
+    background-image: url('assets/bg.jpg');
+  }
+  button{
+    height: 60px;
+    width: 60px;
+  }
+  video {
+  width:100%;
+}
+span{
+  font-size: 27px;
+}
+
+  </style>
