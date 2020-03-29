@@ -1,4 +1,6 @@
-# screencapture
+# Desktop Screenshot, Screen Recorder, Player
+![Node.js CI](https://github.com/vijaysoul/screencapture/workflows/Node.js%20CI/badge.svg)
+## screencapture
 
 1. git clone https://github.com/vijaysoul/screencapture.git
 
