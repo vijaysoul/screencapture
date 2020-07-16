@@ -24,7 +24,7 @@
   "homepage": "https://github.com/vijaysoul/screencaputre#readme",
   "dependencies": {
     "domify": "^1.4.0",
-    "electron": "^5.0.2"
+    "electron": "^7.2.4"
   },
   "devDependencies": {
     "electron-builder": "^20.41.0",
